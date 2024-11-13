@@ -1,2 +1,7 @@
-# Jarkom-Modul-4-IT23-2024
-Praktikan Pemula Jaringan Komputer
+# Jarkom-Modul-3-IT22-2024
+
+
+| Nama | NRP |
+| :--: | :--: |
+| Daffa Rajendra Priyatama | 5027231009 |
+| Nabiel Nizar Anwari | 5027231087 |
