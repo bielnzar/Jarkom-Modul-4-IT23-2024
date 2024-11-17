@@ -79,7 +79,6 @@ Spreadsheet Subnetting :  https://intip.in/SubnettingIT23
 
 ![github-small](https://github.com/bielnzar/Jarkom-Modul-4-IT23-2024/blob/main/assets/CIDR/Subnet/Rumus/X.png)
 
-Pembagian IP - CIDR
 
 ## Pembagian IP-CIDR
 
