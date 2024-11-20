@@ -15,13 +15,18 @@ Topologi :
 
 Spreadsheet Subnetting :  https://intip.in/SubnettingIT23
 
-## CPT - VLSM
-
-## GNS3 - CIDR
-
 ### Rute
 ![github-small](https://github.com/bielnzar/Jarkom-Modul-4-IT23-2024/blob/main/assets/CIDR/Rute/Rute_IT23_Modul-4.png)
 
+## CPT - VLSM
+
+### TREE
+![github-small](https://github.com/bielnzar/Jarkom-Modul-4-IT23-2024/blob/main/assets/VLSM/VLSM-Tree-IT23.jpg)
+
+## GNS3 - CIDR
+
+### CIDR - Tree
+![github-small](https://github.com/bielnzar/Jarkom-Modul-4-IT23-2024/blob/main/assets/CIDR/CIDR-Tree-IT23.png)
 
 ## Penggabungan 
 
