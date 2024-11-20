@@ -112,3 +112,146 @@ Spreadsheet Subnetting :  https://intip.in/SubnettingIT23
 | A21    | 10.75.34.0  | 255.255.255.128 | 10.75.41.254  | 10.75.34.1 - 10.75.41.253 |
 | A22    | 10.75.42.0  | 255.255.254.0   | 10.75.57.254  | 10.75.42.1 - 10.75.57.253 |
 
+
+# Routing
+
+- Hololive
+```
+#Holo-EN
+post-up route add -net 10.75.8.0 netmask 255.255.255.252 gw 10.75.16.2
+post-up route add -net 10.75.8.32 netmask 255.255.255.224 gw 10.75.16.2
+post-up route add -net 10.75.4.0 netmask 255.255.255.252 gw 10.75.16.2
+post-up route add -net 10.75.2.0 netmask 255.255.254.0 gw 10.75.16.2
+post-up route add -net 10.75.0.64 netmask 255.255.255.248 gw 10.75.16.2
+post-up route add -net 10.75.0.128 netmask 255.255.255.248 gw 10.75.16.2
+post-up route add -net 10.75.0.0 netmask 255.255.255.192 gw 10.75.16.2
+
+#Holo-ID
+post-up route add -net 10.81.0.0 netmask 255.255.255.252 gw 10.81.42.2
+post-up route add -net 10.81.2.0 netmask 255.255.252.0 gw 10.81.42.2 #
+post-up route add -net 10.81.6.0 netmask 255.255.255.252 gw 10.81.42.2
+post-up route add -net 10.81.6.64 netmask 255.255.255.192 gw 10.81.42.2
+post-up route add -net 10.81.7.0 netmask 255.255.255.252 gw 10.81.42.2
+post-up route add -net 10.81.10.0 netmask 255.255.254.0 gw 10.81.42.2
+
+#Holo-JP
+post-up route add -net 10.75.84.0 netmask 255.255.255.248 gw 10.79.0.2
+post-up route add -net 10.77.0.0 netmask 255.255.255.240 gw 10.79.0.2
+post-up route add -net 10.75.58.0 netmask 255.255.224.0 gw 10.79.0.2 #
+post-up route add -net 10.75.32.0 netmask 255.255.255.252 gw 10.79.0.2
+post-up route add -net 10.75.34.0 netmask 255.255.255.128 gw 10.79.0.2
+post-up route add -net 10.75.42.0 netmask 255.255.254.0 gw 10.79.0.2
+```
+
+- Holo-EN
+```
+#A3
+post-up route add -net 10.75.8.32 netmask 255.255.255.224 gw 10.75.8.2
+
+#A5
+post-up route add -net 10.75.2.0 netmask 255.255.254.0 gw 10.75.4.2
+#A6
+post-up route add -net 10.75.0.64 netmask 255.255.255.248 gw 10.75.4.2
+#A7
+post-up route add -net 10.75.0.128 netmask 255.255.255.248 gw 10.75.4.2
+#A8
+post-up route add -net 10.75.0.0 netmask 255.255.255.192 gw 10.75.4.2
+```
+
+- Holo-Myth
+```
+#A7
+post-up route add -net 10.75.0.128 netmask 255.255.255.248 gw 10.75.0.66
+#A1
+post-up route add -net 10.75.16.0 netmask 255.255.255.252 gw 10.75.4.1
+
+#A8 
+post-up route add -net 10.75.0.0 netmask 255.255.255.192 gw 10.75.0.67
+#A4
+post-up route add -net 10.75.4.0 netmask 255.255.255.252 gw 10.75.0.65
+```
+
+- Holo-Advent
+```
+post-up route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.75.8.1
+```
+
+- Project-Hope
+```
+post-up route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.75.0.65
+```
+
+- Holo-Council
+```
+post-up route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.75.0.65
+```
+
+- Holo-ID
+```
+#A11
+post-up route add -net 10.81.2.0 netmask 255.255.252.0 gw 10.81.0.2
+#A13
+post-up route add -net 10.81.6.64 netmask 255.255.255.192 gw 10.81.6.2
+#A15
+post-up route add -net 10.81.10.0 netmask 255.255.254.0 gw 10.81.7.2
+```
+
+- AREA15
+```
+post-up route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.81.0.1
+```
+
+- holoro
+```
+post-up route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.81.6.1
+```
+
+- holoh3ro
+```
+post-up route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.81.7.1
+```
+
+- Holo-JP
+```
+#A18
+post-up route add -net 10.77.0.0 netmask 255.255.255.240 gw 10.75.84.2
+
+#A19
+post-up route add -net 10.75.58.0 netmask 255.255.224.0 gw 10.75.84.3
+#A20
+post-up route add -net 10.75.32.0 netmask 255.255.255.252 gw 10.75.84.3
+#A21
+post-up route add -net 10.75.34.0 netmask 255.255.255.128 gw 10.75.84.3
+#A22
+post-up route add -net 10.75.42.0 netmask 255.255.254.0 gw 10.75.84.3
+```
+
+- DEV_IS
+```
+post-up route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.75.84.1
+```
+
+- GEN:0
+```
+#A20
+post-up route add -net 10.75.32.0 netmask 255.255.255.252 gw 10.75.58.4
+#A21
+post-up route add -net 10.75.34.0 netmask 255.255.255.128 gw 10.75.58.4
+#A22
+post-up route add -net 10.75.42.0 netmask 255.255.254.0 gw 10.75.58.4
+#A16
+post-up route add -net 10.79.0.0 netmask 255.255.255.252 gw 10.75.84.3
+```
+
+- GEN:1
+```
+#A21
+post-up route add -net 10.75.34.0 netmask 255.255.255.128 gw 10.75.32.2
+
+post-up route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.75.58.1
+```
+
+- Gamers
+```
+post-up route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.75.32.1
+```
