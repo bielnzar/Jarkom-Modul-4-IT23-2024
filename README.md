@@ -25,9 +25,6 @@ Spreadsheet Subnetting :  https://intip.in/SubnettingIT23
 
 ## GNS3 - CIDR
 
-### CIDR - Tree
-![github-small](https://github.com/bielnzar/Jarkom-Modul-4-IT23-2024/blob/main/assets/CIDR/CIDR-Tree-IT23.png)
-
 ## Penggabungan 
 
 ### #0
@@ -84,6 +81,8 @@ Spreadsheet Subnetting :  https://intip.in/SubnettingIT23
 
 ![github-small](https://github.com/bielnzar/Jarkom-Modul-4-IT23-2024/blob/main/assets/CIDR/Subnet/Rumus/X.png)
 
+### CIDR - Tree
+![github-small](https://github.com/bielnzar/Jarkom-Modul-4-IT23-2024/blob/main/assets/CIDR/CIDR-Tree-IT23.png)
 
 ## Pembagian IP-CIDR
 
