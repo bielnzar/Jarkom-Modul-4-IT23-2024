@@ -255,3 +255,16 @@ post-up route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.75.58.1
 ```
 post-up route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.75.32.1
 ```
+
+### Alhamdulillah Configurasi Telah Berhasil
+
+![github-small](https://github.com/bielnzar/Jarkom-Modul-4-IT23-2024/blob/main/assets/CIDR/Ping/1.png)
+
+![github-small](https://github.com/bielnzar/Jarkom-Modul-4-IT23-2024/blob/main/assets/CIDR/Ping/2.png)
+
+![github-small](https://github.com/bielnzar/Jarkom-Modul-4-IT23-2024/blob/main/assets/CIDR/Ping/3.png)
+
+> apa yg ditulis di laporan ini, belum tentu sama dengan konfigurasi rill, karena ada beberapa yg diganti ketika pusing trobleshoot, lupa dokumentasi dan mengubah laporan ini, sekian maturnuwun.
+
+
+> BISMILLAH MODUL 5
